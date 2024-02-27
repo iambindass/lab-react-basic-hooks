@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+#toggle{
+  border-radius: 10px;
+  margin: 30px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.like, .content{
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  margin-top: 10px;
+}
+
+.like div{
+  color: grey;
+  font-size: 24px;
+  padding: 10px;
+}
+
+button{
+  padding: 5px;
+  margin: 10px;
+}
+
+#message, #number{
+  padding: 3px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.plain, .blur{
+  height: 200px;
+}
